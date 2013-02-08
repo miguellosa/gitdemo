@@ -12,10 +12,10 @@ package despesaspessoais;
 public class Despesa {
     String tipodespesa;
     double montante;
+    String descricao;
     
     public Despesa()
     {
-        
     }
     
     public Despesa(String tipodespesa,double montante)
@@ -23,4 +23,12 @@ public class Despesa {
         this.tipodespesa=tipodespesa;
         this.montante=montante;
     }
+    
+    public Despesa(String tipodespesa,double montante,String descricao)
+    {
+        this.tipodespesa=tipodespesa;
+        this.montante=montante;
+        this.descricao=descricao;
+    }
+    
 }
