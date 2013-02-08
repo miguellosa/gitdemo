@@ -17,5 +17,6 @@ public class DespesasPessoais {
         // TODO code application logic here
         Despesa despesa = new Despesa("alimentação",200.0);
         System.out.println(despesa.tipodespesa);
+        System.out.println(despesa.montante);
     }
 }
