@@ -15,7 +15,7 @@ public class DespesasPessoais {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Despesa despesa = new Despesa();
-        System.out.println("Hello World");
+        Despesa despesa = new Despesa("alimentação",200.0);
+        System.out.println(despesa.tipodespesa);
     }
 }
