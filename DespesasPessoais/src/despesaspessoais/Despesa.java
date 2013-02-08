@@ -13,4 +13,14 @@ public class Despesa {
     String tipodespesa;
     double montante;
     
+    public Despesa()
+    {
+        
+    }
+    
+    public Despesa(String tipodespesa,double montante)
+    {
+        this.tipodespesa=tipodespesa;
+        this.montante=montante;
+    }
 }
