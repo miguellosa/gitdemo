@@ -10,25 +10,20 @@ package despesaspessoais;
  * @author Administrator
  */
 public class Despesa {
-    String tipodespesa;
+    Categoria categoria;
     double montante;
-    String descricao;
+   
     
     public Despesa()
     {
     }
     
-    public Despesa(String tipodespesa,double montante)
+    public Despesa( Categoria categoria,double montante)
     {
-        this.tipodespesa=tipodespesa;
+        this.categoria=categoria;
         this.montante=montante;
     }
     
-    public Despesa(String tipodespesa,double montante,String descricao)
-    {
-        this.tipodespesa=tipodespesa;
-        this.montante=montante;
-        this.descricao=descricao;
-    }
+   
     
 }
