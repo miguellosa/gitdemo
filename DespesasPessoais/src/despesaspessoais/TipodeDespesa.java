@@ -10,11 +10,11 @@ import java.util.List;
  *
  * @author losa
  */
-public class Categoria {
+public class TipodeDespesa {
     private String descricao;
     private String codigo;   
     
-    public Categoria(String descricao,String codigo)
+    public TipodeDespesa(String descricao,String codigo)
     {
         this.descricao=descricao;
         this.codigo=codigo;

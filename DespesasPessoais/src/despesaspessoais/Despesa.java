@@ -10,7 +10,7 @@ package despesaspessoais;
  * @author Administrator
  */
 public class Despesa {
-    private Categoria categoria;
+    private TipodeDespesa categoria;
     private double montante;
    
     
@@ -18,7 +18,7 @@ public class Despesa {
     {
     }
     
-    public Despesa( Categoria categoria,double montante)
+    public Despesa( TipodeDespesa categoria,double montante)
     {
         this.categoria=categoria;
         this.montante=montante;
@@ -27,14 +27,14 @@ public class Despesa {
     /**
      * @return the categoria
      */
-    public Categoria getCategoria() {
+    public TipodeDespesa getCategoria() {
         return categoria;
     }
 
     /**
      * @param categoria the categoria to set
      */
-    public void setCategoria(Categoria categoria) {
+    public void setCategoria(TipodeDespesa categoria) {
         this.categoria = categoria;
     }
 
