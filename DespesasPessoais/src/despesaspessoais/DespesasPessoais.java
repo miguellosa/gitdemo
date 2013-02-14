@@ -17,7 +17,7 @@ public class DespesasPessoais {
         // TODO code application logic here
         Categoria cat=new Categoria("Alimentação","0012");
         Despesa despesa = new Despesa(cat,200.0);
-        System.out.println(despesa.categoria.descricao);
-        System.out.println(despesa.montante);
+        System.out.println(despesa.getCategoria().getDescricao());
+        System.out.println(despesa.getMontante());
     }
 }
