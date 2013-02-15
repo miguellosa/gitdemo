@@ -19,5 +19,7 @@ public class DespesasPessoais {
         Despesa despesa = new Despesa(cat,200.0);
         System.out.println(despesa.getCategoria().getDescricao());
         System.out.println(despesa.getMontante());
+         Pagamento pag=new Pagamento(despesa);
+        System.out.println(pag);
     }
 }
