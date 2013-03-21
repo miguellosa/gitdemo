@@ -8,7 +8,7 @@ import java.util.List;
 
 /**
  *
- * @author losa
+ * @author losa xxxxxxxxxxxxxxxxxxxxx
  */
 public class TipoDespesa {
     private String descricao;
